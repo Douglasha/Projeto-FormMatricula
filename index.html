@@ -119,6 +119,45 @@
 
 
             </fieldset>
+
+            <fieldset class="gardian">
+              <legend>Informações do Responsável</legend>
+
+              <div class="input-wrapper">
+                <label for="gardian">Nome do responsável</label>
+                <input 
+                  id="gardian"
+                  name="gardian"
+                  type="text"
+                  placeholder="Miguel Roberto Alves">
+                <small>Principal responsável legal e contato de emergência</small>
+              </div>
+
+              <div class="input-wrapper">
+                <label for="phone-number">Telefone</label>
+                <input 
+                  id="phone-number"
+                  name="phone-number"
+                  type="tel"
+                  placeholder="(35)9 9999-9999"
+                  >
+              </div>
+
+              <div class="input-wrapper">
+                <label for="mail">E-mail</label>
+                <input 
+                  name="mail" 
+                  id="mail"
+                  type="email"
+                  required>
+                  <div class="error">
+                    <img src="assets/icons/alert-circle.png" alt="ícone de alerta vermelho">
+                    <span>Insira um e-mail válido</span>
+                  </div>
+                  
+              </div>
+              
+            </fieldset>
           </form>
         
       </div>
